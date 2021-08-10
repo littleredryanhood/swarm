@@ -1,2 +1,2 @@
 # swarm
-a place for my pi swarm cluster
+a place for my pi swarm cluster containers
