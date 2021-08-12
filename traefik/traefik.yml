@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  traefik:
+    image: traefik:v2.4
+    command:
+      - --api.insecure=true
+      - --providers.docker
+      - --providers.docker.swarmMode=true
+      - --entrypoints.web.address=:80
+      - --entrypoints.web-secure.address=:443
+      - --certificatesresolvers.le.acme.dnschallenge.provider=digitalocean
+      - --certificatesresolvers.le.acme.email=litteredryanhood@gmail.com
+      - --certificatesresolvers.le.acme.storage=/letsencrypt/acme.json
+    networks:
+      - traefik-private
+    ports:
+      - 80:80
+      - 443:443
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /swarm/traefik/letsencrypt:/letsencrypt
+    secrets:
+      - do_api_key
+    environment:
+      - DO_HTTP_TIMEOUT=120
+      - DO_POLLING_INTERVAL=60
+      - DO_AUTH_TOKEN_FILE=/run/secrets/do_api_key
+
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - traefik.docker.network=traefik-private
+networks:
+  traefik-private:
+    external: true
+secrets:
+    do_api_key:
+        external: true

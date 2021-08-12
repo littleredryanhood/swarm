@@ -1,0 +1,2 @@
+## Ignore traefik cert store
+traefik/letsencrypt/acme.json
