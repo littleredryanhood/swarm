@@ -9,7 +9,7 @@ services:
       - --providers.docker.swarmMode=true
       - --entrypoints.web.address=:80
       - --entrypoints.web-secure.address=:443
-      - --certificatesresolvers.le.acme.dnschallenge.provider=do
+      - --certificatesresolvers.le.acme.dnschallenge.provider=digitalocean
       - --certificatesresolvers.le.acme.email=litteredryanhood@gmail.com
       - --certificatesresolvers.le.acme.storage=/letsencrypt/acme.json
     networks:
@@ -20,7 +20,7 @@ services:
       - 8080:8080
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /swarm/traefik/letsencrypt:/letencrypt
+      - /swarm/traefik/letsencrypt:/letsencrypt
     secrets:
       - do_api_key
     environment:
