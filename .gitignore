@@ -1,4 +1,4 @@
 ## Ignore traefik cert store
-/swarm/traefik/letsencrypt/acme.json
+traefik/letsencrypt/acme.json
 ## Ignore pihole configs
-/swarm/pihole/etc/
+pihole/etc/
