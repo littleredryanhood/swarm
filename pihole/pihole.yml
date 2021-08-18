@@ -1,6 +1,5 @@
-version: "3"
+version: "3.8"
 
-# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
   pihole:
     image: pihole/pihole:latest
@@ -10,15 +9,18 @@ services:
       - "67:67/udp"
     networks:
       - traefik-private
-    environment:
-      TZ: 'America/Los Angeles'
     deploy:  
       labels:
         - traefik.enable=true
-        - traefik.http.routers.pihole.rule=Host('pihole.icestation.is')
-        - treafik.http.routers.pihole.tls=true
+        - traefik.http.services.pihole.loadbalancer.server.port=80 
+        - traefik.http.routers.pihole.entrypoints=websecure
+        - traefik.http.routers.pihole.tls=true
+        - traefik.http.routers.pihole.tls.certresolver=le
+        - traefik.http.routers.pihole.rule=Host(`pihole.icestation.is`)
+        - traefik.http.routers.pihole.middlewares=pihole
+        - traefik.http.middlewares.pihole.addPrefix.prefix=/admin
         - traefik.docker.network=traefik-private
-        - traefik.port=80
+  
     volumes:
       - /swarm/pihole/etc/pihole/:/etc/pihole/
       - /swarm/pihole/etc/dnsmasq.d/:/etc/dnsmasq.d/
@@ -28,4 +30,3 @@ services:
 networks:
     traefik-private:
         external: true
-
