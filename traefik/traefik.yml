@@ -8,10 +8,12 @@ services:
       - --providers.docker
       - --providers.docker.swarmMode=true
       - --entrypoints.web.address=:80
-      - --entrypoints.web-secure.address=:443
+      - --entrypoints.websecure.address=:443
       - --certificatesresolvers.le.acme.dnschallenge.provider=digitalocean
       - --certificatesresolvers.le.acme.email=litteredryanhood@gmail.com
       - --certificatesresolvers.le.acme.storage=/letsencrypt/acme.json
+      - --log.level=debug
+      - --certificatesresolvers.le.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory  
     networks:
       - traefik-private
     ports:
@@ -24,6 +26,7 @@ services:
     secrets:
       - do_api_key
     environment:
+      - DO_EMAIL=littleredryanhood@gmail.com
       - DO_HTTP_TIMEOUT=120
       - DO_POLLING_INTERVAL=60
       - DO_AUTH_TOKEN_FILE=/run/secrets/do_api_key
