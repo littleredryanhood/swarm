@@ -17,7 +17,7 @@ services:
     volumes:
       - /swarm/grafana/var/lib/grafana:/var/lib/grafana
       - /swarm/grafana/etc/grafana/grafana.ini:/etc/grafana/grafana.ini
-      - /swarm/grafana/etc/grafana/provisioning/datasources:/etc/grafana/provisioning/datsources
+      - /swarm/grafana/etc/grafana/provisioning/:/etc/grafana/provisioning/
   prometheus:
     image: prom/prometheus:v2.1.0
     restart: unless-stopped
