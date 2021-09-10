@@ -16,6 +16,7 @@ services:
       - --certificatesresolvers.le.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory  
     networks:
       - traefik-private
+    restart: unless-stopped
     ports:
       - 80:80
       - 443:443

@@ -1,0 +1,41 @@
+version: 3.8
+services:
+  grafana:
+    image: grafana/grafana:master
+       networks:
+      - traefik-private
+    restart: unless-stopped
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.http.services.grafana.loadbalancer.server.port=3000
+        - traefik.http.routers.grafana.entrypoints=websecure
+        - traefik.http.routers.grafana.tls=true
+        - traefik.http.routers.grafana.tls.certresolver=le
+        - traefik.http.routers.grafana.rule=Host(`grafana.icestation.is`)
+        - traefik.docker.network=traefik-private
+    volumes:
+      - /swarm/grafana/var/lib/grafana:/var/lib/grafana
+      - /swarm/grafana/etc/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - /swarm/grafana/etc/grafana/provisioning/:/etc/grafana/provisioning/
+  prometheus:
+    image: prom/prometheus:v2.1.0
+    restart: unless-stopped
+    ports:
+      - 9090:9090
+    volumes:
+      - /swarm/prometheus/etc/prometheus/:/etc/prometheus/
+      - /swarm/prometheus/data:/data
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/data'
+  influxdb:
+    image: influxdb
+    restart: unless-stopped
+    ports:
+      - 8082:8082
+      - 8086:8086
+      - 8089:8089
+    volumes:
+      - /swarm/influxdb/etc/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf
+      - /swarm/influxdb/var/lib/influxdb/data:/var/lib/influxdb/data     
