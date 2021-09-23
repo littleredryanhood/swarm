@@ -2,6 +2,7 @@ version: '3.8'
 services:
   grafana:
     image: grafana/grafana:master
+    user: '1000'
     networks:
       - traefik-private
     deploy:
@@ -18,7 +19,7 @@ services:
       - /swarm/grafana/etc/grafana/grafana.ini:/etc/grafana/grafana.ini
       - /swarm/grafana/etc/grafana/provisioning/:/etc/grafana/provisioning/
   prometheus:
-    image: prom/prometheus:v2.1.0
+    image: prom/prometheus:main
     restart: unless-stopped
     ports:
       - 9090:9090
