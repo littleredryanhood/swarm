@@ -1,4 +1,4 @@
-version: 3.8
+version: '3.8'
 services:
   grafana:
     image: grafana/grafana:master
@@ -38,3 +38,7 @@ services:
     volumes:
       - /swarm/influxdb/etc/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf
       - /swarm/influxdb/var/lib/influxdb/data:/var/lib/influxdb/data     
+networks:
+    traefik-private:
+        external: true
+
