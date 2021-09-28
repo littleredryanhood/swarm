@@ -2,3 +2,8 @@
 traefik/letsencrypt/acme.json
 ## Ignore pihole configs
 pihole/etc/
+## ignore grafana data
+grafana/var/lib/*
+## ignore prometheus data
+prometheus/data/*
+## ignore influxdb data

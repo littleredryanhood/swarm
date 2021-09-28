@@ -8,6 +8,8 @@ services:
       - --providers.docker
       - --providers.docker.swarmMode=true
       - --entrypoints.web.address=:80
+      - --entrypoints.web.http.redirections.entrypoint.to=websecure
+      - --entrypoints.web.http.redirections.entrypoint.scheme=https
       - --entrypoints.websecure.address=:443
       - --certificatesresolvers.le.acme.dnschallenge.provider=digitalocean
       - --certificatesresolvers.le.acme.email=litteredryanhood@gmail.com
@@ -16,7 +18,6 @@ services:
       - --certificatesresolvers.le.acme.caserver=https://acme-v02.api.letsencrypt.org/directory  
     networks:
       - traefik-private
-    restart: unless-stopped
     ports:
       - 80:80
       - 443:443
