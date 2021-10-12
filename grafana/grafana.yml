@@ -30,7 +30,7 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/data'
   influxdb:
-    image: influxdb/influxdb:1.8
+    image: influxdb:1.8.10 
     ports:
       - 8082:8082
       - 8086:8086
@@ -38,17 +38,6 @@ services:
     volumes:
       - /swarm/influxdb/etc/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf
       - /swarm/influxdb/var/lib/influxdb/data:/var/lib/influxdb/data
-    volumes:
-      - /:/rootfs:ro
-      - /var/run:/var/run:rw
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-    deploy:
-      mode: global
-    command:
-      - --global_housekeeping_interval=30s
-      - --housekeeping_interval=5s
-      - --storage_duration=1m0s
 networks:
     traefik-private:
         external: true
