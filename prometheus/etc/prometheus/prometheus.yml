@@ -24,6 +24,9 @@ scrape_configs:
     - targets: ['swarm-worker-001.icestation.is:9243']
     - targets: ['swarm-worker-002.icestation.is:9243']
     - targets: ['pihole2.icestation.is:9243']
-  - job_name: 'win-exporter'
+  - job_name: 'wmi-exporter'
     static_configs:
     - targets: ['ice-station-jupiter.icestation.is:9182']
+  - job_name: 'ohmgraphite'
+    static_configs:
+    - targets: ['ice-station-jupiter.icestation.is:4445']
