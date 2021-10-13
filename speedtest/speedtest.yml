@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  speedtest:
+    image: littleredryanhood/speedtest:latest
+    volumes:
+     - /swarm/speedtest/src/:/src/
+
