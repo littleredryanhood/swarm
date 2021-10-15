@@ -29,6 +29,7 @@ services:
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/data'
+      - "--web.enable-lifecycle"
   influxdb:
     image: influxdb:1.8.10 
     ports:
