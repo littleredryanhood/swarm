@@ -30,4 +30,29 @@ scrape_configs:
   - job_name: 'ohmgraphite'
     static_configs:
     - targets: ['ice-station-jupiter.icestation.is:4445']
-
+# scrape kasa devices
+  - job_name: 'kasa'
+    static_configs:
+    - targets:
+      # IP of your smart plugs
+      - 192.168.7.126
+      - 192.168.7.127
+      - 192.168.7.128
+      - 192.168.7.193
+      - 192.168.7.163
+      - 192.168.7.175
+    metrics_path: /scrape
+    relabel_configs:
+      - source_labels : [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        # IP of the exporter
+        replacement: 192.168.7.5:9233
+# scrape kasa_exporter itself
+  - job_name: 'kasa_exporter'
+    static_configs:
+      - targets:
+          # IP of the exporter
+              - 192.168.7.5:9233
