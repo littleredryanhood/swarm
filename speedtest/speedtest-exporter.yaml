@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  speedtest-exporter:
+    image: miguelndecarvalho/speedtest-exporter
+    ports:
+      - 9798:9798
