@@ -1,8 +1,8 @@
 # Global config
 global:
-  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute. 
-  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute. 
-  scrape_timeout: 15s  # scrape_timeout is set to the global default (10s).
+  scrape_interval: 5s
+  evaluation_interval: 5s  
+  scrape_timeout: 5s 
 # A scrape configuration containing exactly one endpoint to scrape:# Here it's Prometheus itself.
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
@@ -30,3 +30,34 @@ scrape_configs:
   - job_name: 'ohmgraphite'
     static_configs:
     - targets: ['ice-station-jupiter.icestation.is:4445']
+# scrape kasa devices
+  - job_name: 'kasa'
+    static_configs:
+    - targets:
+      # IP of your smart plugs
+      - 192.168.7.126
+      - 192.168.7.127
+      - 192.168.7.128
+      - 192.168.7.193
+      - 192.168.7.163
+      - 192.168.7.175
+    metrics_path: /scrape
+    relabel_configs:
+      - source_labels : [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        # IP of the exporter
+        replacement: 192.168.7.5:9233
+# scrape kasa_exporter itself
+  - job_name: 'kasa_exporter'
+    static_configs:
+      - targets:
+          # IP of the exporter
+              - 192.168.7.5:9233
+  - job_name: 'speedtest-exporter'
+    scrape_interval: 1m
+    scrape_timeout: 1m
+    static_configs:
+     - targets: ['192.168.7.5:9798']

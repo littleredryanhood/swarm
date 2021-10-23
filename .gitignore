@@ -8,3 +8,6 @@ grafana/var/lib/*
 prometheus/data/*
 ## ignore influxdb data
 influxdb/etc/influxdb/influxdb.conf
+influxdb/var/lib/*
+
+
