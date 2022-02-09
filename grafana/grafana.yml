@@ -30,6 +30,16 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/data'
       - "--web.enable-lifecycle"
+  graphite:
+    image: "graphiteapp/graphite-statsd:latest"
+    volumes:
+       - /swarm/graphite/opt/graphite/conf:/opt/graphite/conf
+       - /swarm/graphite/opt/graphite/storage:/opt/graphite/storage
+       - /swarm/graphite/graphite-api.yaml:/opt/graphite/graphite-api.yaml
+    environment:
+       - "CARBON_AGGREGATOR_DISABLED=1"
+       - "REDIS_DISABLED=1"
+       - "STATSD_DISABLED=1"
   influxdb:
     image: influxdb:1.8.10 
     ports:
