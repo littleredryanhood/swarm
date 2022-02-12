@@ -10,5 +10,7 @@ prometheus/data/*
 ## ignore influxdb data
 influxdb/etc/influxdb/influxdb.conf
 influxdb/var/lib/*
-
+##homeassistant files
+homeassistant/homeassistant/config/.storage/auth
+homeassistant/homeassistant/config/.storage/auth
 
