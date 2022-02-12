@@ -1,22 +1,43 @@
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
-2022-02-12 00:17:37 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
-2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
-2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
-2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
-2022-02-12 00:17:39 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Porch KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.171; Retrying in background
-2022-02-12 00:17:39 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Bedroom Overhead KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.173; Retrying in background
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:17 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 19:41:33 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Porch KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.171; Retrying in background
+2022-02-12 19:41:33 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Bedroom Overhead KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.173; Retrying in background
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.128 data: Unable to connect to the device: 192.168.7.128
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.178 data: Unable to connect to the device: 192.168.7.178
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.193 data: Unable to connect to the device: 192.168.7.193
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.126 data: Unable to connect to the device: 192.168.7.126
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.127 data: Unable to connect to the device: 192.168.7.127
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.175 data: Unable to connect to the device: 192.168.7.175
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.163 data: Unable to connect to the device: 192.168.7.163
+2022-02-12 19:44:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.199 data: Unable to connect to the device: 192.168.7.199
+2022-02-12 19:45:56 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 10.0.0.2 (10.0.0.2). (Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/96.0  Mobile/15E148 Safari/605.1.15)
+2022-02-12 19:54:08 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.126 data: Unable to connect to the device: 192.168.7.126
+2022-02-12 19:54:08 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.175 data: Unable to connect to the device: 192.168.7.175
+2022-02-12 19:54:08 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.193 data: Unable to connect to the device: 192.168.7.193
+2022-02-12 19:54:09 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.163 data: Unable to connect to the device: 192.168.7.163
+2022-02-12 19:54:09 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.127 data: Unable to connect to the device: 192.168.7.127
+2022-02-12 20:04:42 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.173 data: Unable to connect to the device: 192.168.7.173
+2022-02-12 20:04:47 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.128 data: Unable to connect to the device: 192.168.7.128
+2022-02-12 20:04:47 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.199 data: Unable to connect to the device: 192.168.7.199
+2022-02-12 20:04:47 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.178 data: Unable to connect to the device: 192.168.7.178
+2022-02-12 20:04:50 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.127 data: Unable to connect to the device: 192.168.7.127
+2022-02-12 20:04:50 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.163 data: Unable to connect to the device: 192.168.7.163
+2022-02-12 20:04:51 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.175 data: Unable to connect to the device: 192.168.7.175
+2022-02-12 20:04:51 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.193 data: Unable to connect to the device: 192.168.7.193
+2022-02-12 20:04:51 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.126 data: Unable to connect to the device: 192.168.7.126
+2022-02-12 20:10:23 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.173 data: Unable to connect to the device: 192.168.7.173
+2022-02-12 22:05:41 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.7.173 data: Unable to connect to the device: 192.168.7.173
