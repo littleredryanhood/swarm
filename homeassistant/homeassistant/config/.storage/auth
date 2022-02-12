@@ -12,7 +12,19 @@
                 "is_owner": true,
                 "is_active": true,
                 "name": "redhat",
-                "system_generated": false
+                "system_generated": false,
+                "local_only": false
+            },
+            {
+                "id": "cd865066a5db45cb98b074f4ad8dfffe",
+                "group_ids": [
+                    "system-read-only"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Home Assistant Content",
+                "system_generated": true,
+                "local_only": false
             }
         ],
         "groups": [
@@ -168,6 +180,22 @@
                 "last_used_ip": "10.0.0.2",
                 "credential_id": "28de9d455690485a9321dcf95b839269",
                 "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "f21c01407f4044cda84579e8d4cedc9e",
+                "user_id": "cd865066a5db45cb98b074f4ad8dfffe",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2022-02-12T00:17:19.783259+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "65f99efe00018e886cd14d9232b4cbf5c530807e9d3184786c8026ddb807c7d51e9170efa7be9caecc7543422e9ed6972a6b3395df91c1de67357fbdb342142e",
+                "jwt_key": "49f8c56aa62978ea2c0b2e5699feb71a81610c203a8ac8b0afa661bb77bc87e570bd9605d86dae9f71ebc20cdd8a109528087665bf037889dfc09a347fa086a5",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "credential_id": null,
+                "version": "2022.2.6"
             }
         ]
     }

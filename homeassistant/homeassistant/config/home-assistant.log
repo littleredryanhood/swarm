@@ -1,0 +1,22 @@
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:23 WARNING (MainThread) [aiohue.util] Value {} of type <class 'dict'> is invalid for Device.identify, expected value of type typing.Optional[aiohue.v2.models.feature.IdentifyFeature]
+2022-02-12 00:17:37 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
+2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
+2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
+2022-02-12 00:17:38 ERROR (MainThread) [homeassistant.components.http.forwarded] A request from a reverse proxy was received from 10.0.1.62, but your HTTP integration is not set-up for reverse proxies
+2022-02-12 00:17:39 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Porch KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.171; Retrying in background
+2022-02-12 00:17:39 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Bedroom Overhead KL125(US)' for tplink integration not ready yet: Unable to connect to the device: 192.168.7.173; Retrying in background
