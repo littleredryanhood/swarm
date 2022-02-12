@@ -1,0 +1,174 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "2af34e72bea749cfbc96b0722c6196ed",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "redhat",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "28de9d455690485a9321dcf95b839269",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "redhat"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "ae17b19810dd41ebbf50e8e9b689a842",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-27T01:21:46.853926+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "417c2d49a0ec33a2163815081c2e0c782343b94b0805c45c9e84448d967682361f5db950de8d5760544bc729a1e30e5ebdee378254b47713ea1a278e0d843953",
+                "jwt_key": "71b115579251f31a57b06f2d1d1ab13e60c55f733b49e01fd37838c3db879b8c198098848e4b3d88ff18b9ba743bf85e947a01fda9420e948b195ae97d858b61",
+                "last_used_at": "2021-11-27T01:21:46.854488+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "159b6f54531d4d36ae7edd7dfae3f2d3",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-27T01:25:03.754301+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "22937f04c1a8d4d202ef6370ca4bbe0ca5761ddb9f92f3efc51b6f5d19fecae224f9d11332338fc66dea5661a2c963e7c90c5f703cd7c942758354ea65826637",
+                "jwt_key": "81a20a1421f8d3eb64f89395a84ea7588c0ba986de3089dbe7a4c4811b2cf8b3412f054d7b7f7c1f7c4f41c280a513934729059cefc87fbb097ac0351b47acdb",
+                "last_used_at": "2021-11-27T01:25:03.754620+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "498d2113c5af4bcb8b62b0e60d6910cb",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-27T01:28:04.187536+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7d83fb0f181cbb3dc9cd88f8ea5c33db26b50b7db1e1c338518c72da348e57246478fa10ba477b43f5a66a2c0efc9732bea361677adee61d3d3449869d8a148b",
+                "jwt_key": "25d6ae32df0f316c6cbabb6be90176b0f1ac994636942a885a4a7c1d4f4763e95c793c0928b4034ddd4660b7fb34bdc52fd5bf9608cf3dd0418e0418def20b19",
+                "last_used_at": "2021-11-27T01:28:04.187897+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "85d93ac602e247f0b02cfcb52cb5f14d",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-27T01:28:47.749891+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "3609e0c6e5c8549a1bd47178b5cb2978df63e8b99eb6b2272a65a4e97f634b759465ff5e963e33f9736630e6d623d8a3b4aa331e78b87bace23724be0ac2466c",
+                "jwt_key": "214bb0f7465726e24f394fe4a7f27948aaf41d8db65d37d420a6c6e24d4518fde3b71cb573539c3ec329b15e514c002b5ebe28a4cad877b3916386a79e26e306",
+                "last_used_at": "2021-11-27T01:28:47.750383+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "459c9e721cbd4be59679321f1f09756e",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-30T20:17:28.431519+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "e1308f587bfb4524c0dcd28211a6aa7070ac11bbeee3cbe63ba443cc108bb178fe5ff2bafc75524bce861fbed1e43ed6ddbd81020dff25c7192e22a25cfcba19",
+                "jwt_key": "012ac2e8cea8a56259be744f7d48017f3a88893633a581f4c8b495dd6757b90c79769b315272c49c516733a4526edf6732204f6b686c3dfefb1a357e52ad5f83",
+                "last_used_at": "2021-11-30T20:17:28.432024+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "164f9467b63b430da5b1ccc429983099",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-30T20:17:37.294981+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "4a6c687cfc3fb1a85040ba33228a4217720b809f98b47cdab534e654d42456e70943425be54de8ae0a5ffd51badca7401811ad78c319614a7e3cd406685981ff",
+                "jwt_key": "107fe2f702ebdb4d9b5dc30c059abdf11b94c155c4a2224fb58c4c87867d6aec59f6c6d484072a467ff6f6a6eb5ff457b45b5af338f0d25e68eaf8ec609a43fa",
+                "last_used_at": "2021-11-30T20:57:38.303959+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "274a592518414fdd87066dee9a5e7000",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-11-30T21:47:34.222718+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "3d3261ba186ee9039240979f74cbb47bec525463f6576a29e738d8a3cc80ca79ce9d36f6ae70c5d7d4558b3cf7d70c4be2bd1548eb641d19ed4b2bce97bd1fbd",
+                "jwt_key": "f1ffb8fe396dd6eb9896800dae8391a786f4737b6b8fcb5d1b2efa9a1c7731cfaa1e6c2bccb9667e1db20c0aca476bbd77592e6b12756eb1e40c584eee150807",
+                "last_used_at": "2021-12-01T06:57:15.660562+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            },
+            {
+                "id": "253cbc6823204a93a22cdb056c0bfd83",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "client_id": "https://ha.icestation.is/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2022-02-11T23:51:21.303748+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "ac87aa56388339b310c64fd0214be92d77a52eb41b8ad1b9c544b1e65e04263130fbe81e7921791547f15f837ff241e8d54423980bfd9434d6a4a1058fcd97bb",
+                "jwt_key": "22bfd20733fb800f267f6ac73dbc7a542c113deac1b58371318e43b84c585618c8e10462962eff5a80db657e4cbdb0ed9c36d8184b5bbaff52308c3ad1abb488",
+                "last_used_at": "2022-02-11T23:51:21.304115+00:00",
+                "last_used_ip": "10.0.0.2",
+                "credential_id": "28de9d455690485a9321dcf95b839269",
+                "version": "2021.12.0.dev20211126"
+            }
+        ]
+    }
+}

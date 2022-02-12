@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "redhat",
+                "password": "JDJiJDEyJEk3MlJXd3lhODhlalR3VEhTUzQuSy5MNnNURGN4OHhHcS5FTy50SktqLzl6LkhIZXdKb3Nt"
+            }
+        ]
+    }
+}

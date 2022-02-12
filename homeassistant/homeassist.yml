@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  homeassistant:
+    image: homeassistant/armhf-homeassistant:latest
+    networks:
+      - traefik-private 
+      - macvlan_swarm
+    volumes:
+      - /swarm/homeassistant/homeassistant/config:/config
+      - /swarm/homeassistant/homeassistant/localtime:/etc/localtime:ro
+    deploy:
+      labels:
+      - traefik.enable=true
+      - traefik.http.services.homeassist.loadbalancer.server.port=8123
+      - traefik.http.routers.homeassist.entrypoints=websecure
+      - traefik.http.routers.homeassist.tls=true
+      - traefik.http.routers.homeassist.tls.certresolver=le
+      - traefik.http.routers.homeassist.rule=Host(`ha.icestation.is`)
+      - traefik.docker.network=traefik-private  
+#    ports:
+#      - "8123:8123"
+networks:
+  traefik-private:
+    external: true
+  macvlan_swarm:
+    external: true
+  hostnet:
+    external: true
+    name: host

@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "redhat",
+                "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                "device_trackers": [],
+                "id": "redhat"
+            }
+        ]
+    }
+}

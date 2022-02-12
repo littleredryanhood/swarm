@@ -1,0 +1,770 @@
+{
+    "version": 1,
+    "minor_version": 2,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:04:fb:12:fc"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "fd1f8efb-fa6b-4d1a-a28e-bf657e238955"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play (LCT024)",
+                "name": "BattleStation Back light L",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "0b0be57eb3309af9711f8d2380f836b9",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:01:d6:e1:96"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "88f62434-5266-4d60-9910-5a500f659cfc"
+                    ],
+                    [
+                        "hue",
+                        "001788fffea6e196"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "BSB002",
+                "name": "Philips hue",
+                "sw_version": "1.48.1948086000",
+                "entry_type": null,
+                "id": "a76d4e980adda712bed76685e3f8a3e2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:4a:74:9d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "c44d4207-90b3-4384-9383-695d80db8662"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT007)",
+                "name": "BattleStation 2",
+                "sw_version": "67.88.1",
+                "entry_type": null,
+                "id": "e4d93369ba2cc3427c72d5e6b858dedd",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:41:0f:ce"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "645b7e9a-9262-4a60-b4ef-4332ae6032ed"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play (LCT024)",
+                "name": "Battlestation Monitor Right",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "a8cacf783bb910a7bf18988b925010b7",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:09:5f:40:06"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "8e5d0da8-d05c-430a-8cbc-68862c0a2b40"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play gradient lightstrip (LCX001)",
+                "name": "TV back light",
+                "sw_version": "1.94.2",
+                "entry_type": null,
+                "id": "261bf8d17abd3aa253cb22b81e57c70a",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "den",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:53:08:23"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "5b46a8b2-f9d6-4d9a-84ff-5c02f7febeca"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT007)",
+                "name": "Basement hall",
+                "sw_version": "67.88.1",
+                "entry_type": null,
+                "id": "142a4286cf15330094779b2401e0461e",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:1b:7b:f2"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "9f30dbec-5b28-4c59-a68a-7753d981ec8d"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white candle (LWE001)",
+                "name": "Egg lamp",
+                "sw_version": "1.93.7",
+                "entry_type": null,
+                "id": "24dcf77cdb92e122ece3e43fe8c7bc6a",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:1b:79:18"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "ca7fc275-97b6-4772-a9cd-cc99b6fd37b0"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue white candle (LWE001)",
+                "name": "Bedside lamp",
+                "sw_version": "1.93.7",
+                "entry_type": null,
+                "id": "0857d9cda03ac0d0c171651789c25032",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:41:dc:95"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "7324f625-227c-40c4-834b-2774b096d62d"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play (LCT024)",
+                "name": "BattleStation UnderDesk",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "4fdd49c3a1993e19ef3447ceeca6709c",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:80:30:c9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "c194d98f-de39-4f0c-bfc9-45e024508d72"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT016)",
+                "name": "Den front right",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "bd6e8f56472c6fd2ef0d94ff3b7e688d",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "den",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:6e:72:49"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "922832e3-c680-47c4-a097-fe45952f4d3e"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch (RWL020)",
+                "name": "Ice-station",
+                "sw_version": "1.1.28573",
+                "entry_type": null,
+                "id": "c43546912351f32b0510595d510b3f13",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:41:6c:a2"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "452f3855-6837-44c8-b0bc-abcd7c566b94"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play (LCT024)",
+                "name": "Battlestation Monitor Left",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "8b767db46f83e026b35999096f9e1af9",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:42:59:92"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "28e5b3e0-292c-4ef0-a605-b8c290044d25"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT007)",
+                "name": "BattleStation 1",
+                "sw_version": "67.88.1",
+                "entry_type": null,
+                "id": "c1f6eef93f71cb2321b4e6340d41432c",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:04:fb:3c:87"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "3c0853ec-782c-4459-871d-45058570c513"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue play (LCT024)",
+                "name": "BattleStation Back light R",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "4169d39dee453dfc3bd2c985663559c4",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "ryan_office",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:95:0b:13"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "03d65e23-26b8-4f62-98e2-4c1aa5717feb"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT016)",
+                "name": "Den front left",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "4add97710c5f43af2e90318ff59ca40e",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "den",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:81:2e:1c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "53400c6a-f4ab-42d3-bc67-f24244df4c6c"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT016)",
+                "name": "Den rear right",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "d5141ef45255cb80ed0938c6a807fe8a",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "den",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "071f4be7c216378544dfaa06cb274ad8"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:da:e5:52"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "278b3afc-1e60-49b0-9335-196f9e59eb4b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp (LCT016)",
+                "name": "Den rear left",
+                "sw_version": "1.88.1",
+                "entry_type": null,
+                "id": "3f13524a9f88504b689379a0b26a1dfa",
+                "via_device_id": "a76d4e980adda712bed76685e3f8a3e2",
+                "area_id": "den",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "97013096717a0370b610619ab3371219"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:c9:e3:26:61:ab"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "C0:C9:E3:26:61:AB"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Laundry table lamp",
+                "sw_version": "1.0.3 Build 201015 Rel.142523",
+                "entry_type": null,
+                "id": "1d1144d103e7c0c7ad7db599c7ed944e",
+                "via_device_id": null,
+                "area_id": "laundry_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "88bff1c1f833377003ca61354b1cbf0b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "60:32:b1:74:51:04"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "60:32:B1:74:51:04"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Dresser lamp",
+                "sw_version": "1.0.4 Build 210414 Rel.190620",
+                "entry_type": null,
+                "id": "c9a9b9750c8ea43a5470cd293c520005",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5ac026ef223289450465f9908e560dd1"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e4:c3:2a:44:a7:39"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "e4:c3:2a:44:a7:39"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "KL125(US)",
+                "name": "Porch",
+                "sw_version": "1.0.7 Build 211009 Rel.172044",
+                "entry_type": null,
+                "id": "c08cdf7c8869e810e7f335befba8e677",
+                "via_device_id": null,
+                "area_id": "porch",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9b3e9f3e2f89e62a695399f5d46c26db"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "60:32:b1:74:5c:ac"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "60:32:B1:74:5C:AC"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Tree",
+                "sw_version": "1.0.4 Build 210414 Rel.190620",
+                "entry_type": null,
+                "id": "41aaaf4d4972ac2b178b81dcd50bc2f1",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e6424cbd30737547ee27b27352603ac1"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "60:32:b1:74:64:c2"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "60:32:B1:74:64:C2"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Arc lamp",
+                "sw_version": "1.0.4 Build 210414 Rel.190620",
+                "entry_type": null,
+                "id": "689839011ed28b1ad1e721e5c116feea",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "5098b5fd5793b4725e21814c3ce4bfc5"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:c9:e3:26:59:c4"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "C0:C9:E3:26:59:C4"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "LR Plant light",
+                "sw_version": "1.0.3 Build 201015 Rel.142523",
+                "entry_type": null,
+                "id": "7c992e1aeb508d3e1bc454a5a7ceaaf3",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "501dee4144d33553ccb4bc6ceb27970a"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "60:32:b1:74:46:4a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "60:32:B1:74:46:4A"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Blue lamp",
+                "sw_version": "1.0.4 Build 210414 Rel.190620",
+                "entry_type": null,
+                "id": "1d9d8ca4576724ac1b99bc8689f32262",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "3b7de53cfc656e562e266cbfa108dcf3"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:c9:e3:26:5a:5b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "C0:C9:E3:26:5A:5B"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Laundry hanging lamp",
+                "sw_version": "1.0.3 Build 201015 Rel.142523",
+                "entry_type": null,
+                "id": "f84912000537801207e3f01cffc85365",
+                "via_device_id": null,
+                "area_id": "laundry_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "fabf8cdbdb810e33b0d2d99b74c83fd1"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:c9:e3:26:5a:34"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "C0:C9:E3:26:5A:34"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "HS103(US)",
+                "name": "Ryan bedside lamp",
+                "sw_version": "1.0.3 Build 201015 Rel.142523",
+                "entry_type": null,
+                "id": "6fd1cc6b42240ffff612dc0e48acc621",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "49f9c445639a3ddafd69b8869830374f"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e8:48:b8:f0:b3:bf"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "tplink",
+                        "e8:48:b8:f0:b3:bf"
+                    ]
+                ],
+                "manufacturer": "TP-Link",
+                "model": "KL125(US)",
+                "name": "Bedroom Overhead",
+                "sw_version": "1.0.7 Build 210811 Rel.171439",
+                "entry_type": null,
+                "id": "f424638a6c2e12a5c377bb596a230074",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

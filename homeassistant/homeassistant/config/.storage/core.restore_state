@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.redhat",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "redhat",
+                    "user_id": "2af34e72bea749cfbc96b0722c6196ed",
+                    "friendly_name": "redhat"
+                },
+                "last_changed": "2022-01-03T03:32:20.052770+00:00",
+                "last_updated": "2022-01-03T03:32:39.295162+00:00",
+                "context": {
+                    "id": "1c7a2bb1ca7c59814879187f3eb3f686",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2022-02-12T00:03:16.118615+00:00"
+        }
+    ]
+}

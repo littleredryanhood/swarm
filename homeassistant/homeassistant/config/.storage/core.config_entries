@@ -1,0 +1,279 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "071f4be7c216378544dfaa06cb274ad8",
+                "version": 1,
+                "domain": "hue",
+                "title": "Hue Bridge",
+                "data": {
+                    "host": "192.168.7.192",
+                    "api_key": "WzSjO3NknfBAtfkHwhpPZJRCMjOYcrVIOlJSLKMa",
+                    "api_version": 2
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "001788a6e196",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b674a59488d635c788c0e80da479dee9",
+                "version": 1,
+                "domain": "ipp",
+                "title": "Crafty Printer @ Afton\u2019s MacBook Air",
+                "data": {
+                    "host": "192.168.7.239",
+                    "name": "Crafty Printer @ Afton\u2019s MacBook Air"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "37114094-a72f-31ce-7562-892f3fb6b80a",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "977b114ad9927832d728c907e39da5b8",
+                "version": 1,
+                "domain": "spotify",
+                "title": "Spotify",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "97013096717a0370b610619ab3371219",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Laundry table lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.163"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "c0:c9:e3:26:61:ab",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "88bff1c1f833377003ca61354b1cbf0b",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Dresser lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.128"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "60:32:b1:74:51:04",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e6424cbd30737547ee27b27352603ac1",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Arc lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.126"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "60:32:b1:74:64:c2",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5ac026ef223289450465f9908e560dd1",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Porch KL125(US)",
+                "data": {
+                    "host": "192.168.7.171"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "e4:c3:2a:44:a7:39",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9b3e9f3e2f89e62a695399f5d46c26db",
+                "version": 1,
+                "domain": "tplink",
+                "title": "LR reading lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.193"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "60:32:b1:74:5c:ac",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5098b5fd5793b4725e21814c3ce4bfc5",
+                "version": 1,
+                "domain": "tplink",
+                "title": "LR Plant light HS103(US)",
+                "data": {
+                    "host": "192.168.7.178"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "c0:c9:e3:26:59:c4",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "501dee4144d33553ccb4bc6ceb27970a",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Blue lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.127"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "60:32:b1:74:46:4a",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "3b7de53cfc656e562e266cbfa108dcf3",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Laundry hanging lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.175"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "c0:c9:e3:26:5a:5b",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fabf8cdbdb810e33b0d2d99b74c83fd1",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Ryan bedside lamp HS103(US)",
+                "data": {
+                    "host": "192.168.7.199"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "discovery",
+                "unique_id": "c0:c9:e3:26:5a:34",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d6a6aae2111fe3357c0e86f5c1e8c160",
+                "version": 1,
+                "domain": "ipp",
+                "title": "Brother HL-L2350DW series",
+                "data": {
+                    "host": "192.168.7.235",
+                    "port": 631,
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "Brother HL-L2350DW series",
+                    "uuid": "e3248000-80ce-11db-8000-105badc62e22"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "e3248000-80ce-11db-8000-105badc62e22",
+                "disabled_by": "user"
+            },
+            {
+                "entry_id": "c40eff8d189bdbc295d099f14c10a1f0",
+                "version": 1,
+                "domain": "ipp",
+                "title": "Adobe PDF 9.0 @ Cute-omatic",
+                "data": {
+                    "host": "192.168.7.253",
+                    "name": "Adobe PDF 9.0 @ Cute-omatic"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "9c4a2770-626f-3960-7aac-93df45d389b2",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "b08c5d6e644c62aa063d11ff011621b3",
+                "version": 1,
+                "domain": "ipp",
+                "title": "Brother HL-L2350DW series @ Afton\u2019s MacBook Air",
+                "data": {
+                    "host": "192.168.7.239",
+                    "name": "Brother HL-L2350DW series @ Afton\u2019s MacBook Air"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "9d1e8dae-a492-30b2-4ca7-a4dc47f4dad1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "52f87f029adf0b00aa95258133f3e72d",
+                "version": 1,
+                "domain": "ipp",
+                "title": "Crafty Printer",
+                "data": {
+                    "host": "192.168.7.233",
+                    "port": 443,
+                    "ssl": true,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "Crafty Printer",
+                    "uuid": "ef33cff0-69a0-f3cd-f5fa-511b313b483f"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "ef33cff0-69a0-f3cd-f5fa-511b313b483f",
+                "disabled_by": "user"
+            },
+            {
+                "entry_id": "49f9c445639a3ddafd69b8869830374f",
+                "version": 1,
+                "domain": "tplink",
+                "title": "Bedroom Overhead KL125(US)",
+                "data": {
+                    "host": "192.168.7.173"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "e8:48:b8:f0:b3:bf",
+                "disabled_by": null
+            }
+        ]
+    }
+}
