@@ -1,9 +1,13 @@
 ## Ignore traefik cert store
 traefik/letsencrypt/acme.json
 ## Ignore pihole configs
-pihole/etc/
+pihole/etc/pihole
 ## ignore grafana data
 grafana/var/lib/*
 ## ignore prometheus data
 prometheus/data/*
 ## ignore influxdb data
+influxdb/etc/influxdb/influxdb.conf
+influxdb/var/lib/*
+
+
