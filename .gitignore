@@ -1,4 +1,5 @@
 ## Ignore traefik cert store
+traefik/letsencrypt
 traefik/letsencrypt/acme.json
 ## Ignore pihole configs
 pihole/etc/pihole
